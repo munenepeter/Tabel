@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Allow access to static assets
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^css/(.*)$ /css/$1 [L]
+RewriteRule ^imgs/(.*)$ /imgs/$1 [L]
+RewriteRule ^js/(.*)$ /js/$1 [L]
+
+
+# Redirect all requests to your index.php file
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?/$1 [L]

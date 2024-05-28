@@ -1,0 +1,22 @@
+{
+    "name": "tabel/tabel",
+    "description": "A simple simple custom framework",
+    "authors": [
+        {
+            "name": "munenepeter",
+            "email": "munenenjega@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1.0",
+        "tabel/framework": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    }
+}
