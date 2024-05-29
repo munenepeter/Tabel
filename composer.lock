@@ -1970,12 +1970,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/munenepeter/framework.git",
-                "reference": "a910efe2718234cb4fdd7d6115b17a9aeb0becaf"
+                "reference": "5870f4d4e412b161f38d102ebccc14c6b0322d77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/munenepeter/framework/zipball/a910efe2718234cb4fdd7d6115b17a9aeb0becaf",
-                "reference": "a910efe2718234cb4fdd7d6115b17a9aeb0becaf",
+                "url": "https://api.github.com/repos/munenepeter/framework/zipball/5870f4d4e412b161f38d102ebccc14c6b0322d77",
+                "reference": "5870f4d4e412b161f38d102ebccc14c6b0322d77",
                 "shasum": ""
             },
             "require": {
@@ -2013,7 +2013,7 @@
                 "issues": "https://github.com/munenepeter/framework/issues",
                 "source": "https://github.com/munenepeter/framework"
             },
-            "time": "2024-05-29T03:27:00+00:00"
+            "time": "2024-05-29T03:30:04+00:00"
         },
         {
             "name": "voku/portable-ascii",

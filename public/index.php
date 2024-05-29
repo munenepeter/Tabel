@@ -1,8 +1,5 @@
 <?php
 
-use Tabel\Core\Request;
-
-
 define('APP_ROOT', __DIR__.'/../');
 
 

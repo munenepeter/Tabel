@@ -9,5 +9,5 @@ Router::get('', [PagesController::class, 'index']);
 
 
 //logs
-Router::get(':system:/logs', [SystemController::class, 'index']);
-Router::post(':system:/logs/delete', [SystemController::class, 'deleteLogs']);
+Router::get('system/logs', [SystemController::class, 'index']);
+Router::post('system/logs/delete', [SystemController::class, 'deleteLogs']);
