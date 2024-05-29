@@ -1970,12 +1970,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/munenepeter/framework.git",
-                "reference": "b8e6b71eb9a423cd5c4a998ce52233a3fe0c2999"
+                "reference": "a910efe2718234cb4fdd7d6115b17a9aeb0becaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/munenepeter/framework/zipball/b8e6b71eb9a423cd5c4a998ce52233a3fe0c2999",
-                "reference": "b8e6b71eb9a423cd5c4a998ce52233a3fe0c2999",
+                "url": "https://api.github.com/repos/munenepeter/framework/zipball/a910efe2718234cb4fdd7d6115b17a9aeb0becaf",
+                "reference": "a910efe2718234cb4fdd7d6115b17a9aeb0becaf",
                 "shasum": ""
             },
             "require": {
@@ -2013,7 +2013,7 @@
                 "issues": "https://github.com/munenepeter/framework/issues",
                 "source": "https://github.com/munenepeter/framework"
             },
-            "time": "2024-05-28T09:10:45+00:00"
+            "time": "2024-05-29T03:27:00+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -2093,7 +2093,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "tabel/framework": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
