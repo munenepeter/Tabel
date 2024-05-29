@@ -8,7 +8,7 @@ $uri = urldecode(
 );
 
 if (strpos($uri, '/public') === 0 && file_exists($publicPath . $uri)) {
-    return false; // Don't route for public directory files
+    return false; // Don't use our router for public directory files
 }
 
 require_once $publicPath . '/public/index.php';
