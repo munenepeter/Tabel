@@ -1,11 +1,17 @@
-<footer class="my-6">
-    <div class="pt-1">
-        <div class="flex px-3 m-auto border-t text-gray-800 text-sm flex-col
-      max-w-screen-lg items-center">
-            <div class="my-5 text-center text-purple-900">&copy; 2020 - <?= date("Y") ?> All rights reserved | Chungu Developers</div>
+    </main>
+    <footer class="border-t border-gray-200">
+        <div class="px-4 py-8 mx-auto max-w-7xl">
+            <div class="flex flex-col items-center justify-center space-y-4">
+                <div class="flex space-x-6 text-sm">
+                    <a href="/docs" class="transition text-primary hover:text-primary-medium">Documentation</a>
+                    <a href="/community" class="transition text-primary hover:text-primary-medium">Community</a>
+                    <a href="https://github.com/your-framework" class="transition text-primary hover:text-primary-medium">GitHub</a>
+                </div>
+                <div class="text-sm text-gray-500">
+                    &copy; <?= date("Y") ?> Tabel. Open source software.
+                </div>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
-
 </html>
