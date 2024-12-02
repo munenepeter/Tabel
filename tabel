@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+if (!defined('APP_ROOT')) {
+    define('APP_ROOT', __DIR__ . '/');
+}
+
+require __DIR__ . '/vendor/autoload.php';
+
+// Bootstrap the CLI application
+(require_once __DIR__ . '/bootstrap/cli.php'); 
